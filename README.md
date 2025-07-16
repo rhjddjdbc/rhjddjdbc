@@ -9,11 +9,6 @@
 
 ---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<!-- You can add links to GitHub, Blog, LinkedIn, etc. here -->
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
