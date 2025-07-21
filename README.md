@@ -41,5 +41,5 @@
 ---
 
 <p align="center">
-  <img src="av405.jpg" width="150" height="150" />
+  <img src="av405.jpg"/>
 </p>
