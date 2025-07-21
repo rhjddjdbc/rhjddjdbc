@@ -37,3 +37,9 @@
   Dedicated to low-level systems, security analysis, and open-source tooling  
   Always curious and open to new technical challenges
 </p>
+
+---
+
+<p align="center">
+  <img src="av405.jpg" alt="Profilbild" width="150" height="150" />
+</p>
