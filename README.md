@@ -4,7 +4,6 @@
 ---
 
 - Currently working on [vaultx](https://github.com/rhjddjdbc/vaultx)
-- working on better audit function 
 - Learning **C** and **x86-64 Assembly**
 - Regularly publishing technical articles: [https://rhjddjdbc.github.io/blog/](https://rhjddjdbc.github.io/blog/)
 
