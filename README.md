@@ -38,9 +38,9 @@
 - [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols  
 - [**Web-Crawler**](https://github.com/rhjddjdbc/Web-Crawler) – Sitemap-based website mirroring with optional JavaScript support  
 - [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Simple Bash reverse shell with customizable IP/port  
-- [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE  
-- [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot  
+- [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE
 - [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb/.cdb/.ldb/.mdb)
+- [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot  
 
 <p align="center">
   <img src="A.jpg" alt="Screenshot" width="700"/>
