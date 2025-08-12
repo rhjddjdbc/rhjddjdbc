@@ -19,9 +19,6 @@
   <a href="https://www.cprogramming.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
   </a>
-  <a href="https://nasm.us/" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/console.png" alt="x86-64 Assembly" width="40" height="40"/>
-  </a>
   <a href="https://www.docker.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
   </a>
