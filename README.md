@@ -36,7 +36,7 @@
 
 - [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging  
 - [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols  
-- [**Web-Crawler**](https://github.com/rhjddjdbc/Web-Crawler) – Sitemap-based website mirroring with optional JavaScript support  
+- [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering.
 - [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding.
 - [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE
 - [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb/.cdb/.ldb/.mdb)
