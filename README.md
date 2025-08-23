@@ -12,9 +12,6 @@
 
 ## Languages & Tools
 <p align="left">
-  <a target="_blank">
-    <img src="GDB_Archer_Fish_by_Andreas_Arnez.svg" alt="gdb" width="40" height="40"/>
-  </a>
   <a href="https://www.gnu.org/software/bash/" target="_blank">
     <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
   </a>
