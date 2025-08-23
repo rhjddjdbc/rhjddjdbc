@@ -54,7 +54,7 @@
 - [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
 
 <p align="center">
-  <img src="A.jpg" alt="Screenshot" width="700"/>
+  <img src="pls.gif" alt="Screenshot" width="700"/>
 </p>
 
 ---
