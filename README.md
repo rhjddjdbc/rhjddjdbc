@@ -53,9 +53,9 @@
 - [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb).
 - [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
 
-<p align="center">
-  <img src="pls.gif" alt="Screenshot" width="700"/>
-</p>
+<div align="center">
+  <img src="pls.gif" alt="Screenshot" width="700">
+</div>
 
 ---
 
