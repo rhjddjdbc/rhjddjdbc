@@ -5,7 +5,7 @@
   Passionate about low-level tooling, security, and automation.<br>
   Building CLI tools with Bash and C.<br>
   Learning x86-64 Assembly.<br>
-  Writing at <a href="https://rhjddjdbc.github.io/blog/">rhjddjdbc.github.io/blog</a>
+  I write my own tech blog at <a href="https://rhjddjdbc.github.io/blog/">rhjddjdbc.github.io/blog</a>. (Terminal style website)
 </p>
 
 ---
