@@ -33,6 +33,9 @@
   <a href="https://www.mysql.com/" target="_blank">
     <img src="MySQL_logo.svg.png" alt="MySQL" width="40" height="40"/>
   </a>
+  <a href="https://freebsd.org/" target="_blank">
+    <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
+  </a>
   <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   </a>
@@ -41,9 +44,6 @@
   </a>
   <a href="http://ghidra.net/" target="_blank">
     <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
-  </a>
-  <a href="https://freebsd.org/" target="_blank">
-    <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
   </a>
 </p>
 
