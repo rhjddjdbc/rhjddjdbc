@@ -43,7 +43,7 @@
     <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
   </a>
   <a href="https://freebsd.org/" target="_blank">
-    <img src="imgbin-freebsd-ports-linux-operating-systems-ms-Cuwp0iELe12qJqM7AKDLY3hUh_t.jpg" alt="FreeBSD" width="40" height="40"/>
+    <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
   </a>
 </p>
 
