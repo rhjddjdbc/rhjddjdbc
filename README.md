@@ -3,7 +3,7 @@
 
 <p align="center">
   Passionate about low-level tooling, security, and automation.<br>
-  Building CLI tools with Bash and C.<br>
+  Building CLI tools with Bash, Rust and C.<br>
   Learning x86-64 Assembly.<br>
   I write my own tech blog at <a href="https://rhjddjdbc.github.io/blog/">rhjddjdbc.github.io/blog</a>. (Terminal style website)
 </p>
