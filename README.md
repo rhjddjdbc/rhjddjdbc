@@ -68,6 +68,8 @@
 - [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb).
 - [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
 - [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging.
+- [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving.
+
 
 <div align="center">
   <img src="output.gif" alt="Screenshot" width="1000">
