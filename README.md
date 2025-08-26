@@ -18,13 +18,17 @@
   <a href="https://www.cprogramming.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
   </a>
-    <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
+  <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
     <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
   </a>
   <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   </a>
+  <a href="https://www.rust-lang.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="Rust" width="40" height="40"/>
+  </a>
 </p>
+
 
 ---
 
