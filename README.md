@@ -60,15 +60,30 @@
 ---
 
 ## Projects
+---
 
-- [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols. C, Bash
-- [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering. Bash
-- [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding. Bash
-- [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE. Bash
-- [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb). C
-- [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot. bash
-- [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging. Bash
-- [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving. Rust
+### C
+
+* [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols. C, Bash
+* [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb). C
+
+---
+
+### Bash
+
+* [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering. Bash
+* [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding. Bash
+* [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE. Bash
+* [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot. Bash
+* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging. Bash
+
+---
+
+### Rust
+
+* [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving. Rust
+
+---
 
 
 <div align="center">
