@@ -64,24 +64,24 @@
 
 ### C
 
-* [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols. C, Bash
-* [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb). C
+* [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols.
+* [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb).
 
 ---
 
 ### Bash
 
-* [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering. Bash
-* [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding. Bash
-* [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE. Bash
-* [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot. Bash
-* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging. Bash
+* [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering.
+* [**Revers-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding.
+* [**arch-hardend**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE.
+* [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
+* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging.
 
 ---
 
 ### Rust
 
-* [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving. Rust
+* [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving.
 
 ---
 
