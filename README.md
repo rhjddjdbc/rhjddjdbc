@@ -75,7 +75,7 @@
 * [**Reverse-shell**](https://github.com/rhjddjdbc/Revers-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding.
 * [**arch-hardened**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE.
 * [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
-* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check, and HMAC logging.
+* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check with hibp, and HMAC logging.
 
 ---
 
