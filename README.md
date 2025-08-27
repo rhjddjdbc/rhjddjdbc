@@ -13,7 +13,7 @@
 ## Languages
 <p align="left">
   <a href="https://www.gnu.org/software/bash/" target="_blank">
-    <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
+    <img src="icons8-bash-48.png" alt="Bash" width="50" height="50"/>
   </a>
   <a href="https://www.cprogramming.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
