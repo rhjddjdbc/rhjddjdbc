@@ -13,7 +13,7 @@
 ## Languages
 <p align="left">
   <a href="https://www.rust-lang.org/" target="_blank">
-    <img src="image_proxy3.png" alt="Rust" width="40" height="40"/>
+    <img src="pngaaa.com-4373403.png" alt="Rust" width="40" height="40"/>
   </a>
   <a href="https://www.gnu.org/software/bash/" target="_blank">
     <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
