@@ -76,7 +76,7 @@
 * [**arch-hardened**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE.
 * [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
 * [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check with hibp, and HMAC logging.
-* [**pwny**](https://github.com/rhjddjdbc/vaultx) -  pwny.sh Bash-based scanner for XSS, SQLI, LFI, and other common web vulnerabilities.
+* [**pwny**](https://github.com/rhjddjdbc/pwny) - pwny.sh Bash-based scanner for XSS, SQLI, LFI, and other common web vulnerabilities.
 
 ---
 
