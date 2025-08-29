@@ -34,14 +34,14 @@
             </a>
         </td>
         <td>
-            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-                <img src="icons8-html-48.png" alt="HTML5" width="40" height="40"/>
+            <a href="https://www.markdownguide.org/" target="_blank">
+                <img src="icons8-markdown-80.png" alt="Markdown" width="40" height="40"/>
             </a>
             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                 <img src="icons8-css-48.png" alt="CSS" width="40" height="40"/>
             </a>
-            <a href="https://www.markdownguide.org/" target="_blank">
-                <img src="icons8-markdown-80.png" alt="Markdown" width="40" height="40"/>
+            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
+                <img src="icons8-html-48.png" alt="HTML5" width="40" height="40"/>
             </a>
         </td>
         <td>
