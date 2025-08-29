@@ -24,7 +24,7 @@
   <a href="https://www.rust-lang.org/" target="_blank">
       <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
   </a>
-  &nbsp;|&nbsp; 
+  &nbsp; &nbsp; 
   <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   </a>
