@@ -12,9 +12,6 @@
 
 ## Languages & Tools
 
----
-
-
 <table style="width: 100%;">
     <tr>
         <th style="width: 33%;">Programming Languages</th>
@@ -69,7 +66,6 @@
 
 
 ## Projects
----
 
 ### C
 
