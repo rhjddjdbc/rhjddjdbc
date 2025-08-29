@@ -35,7 +35,7 @@
         </td>
         <td>
             <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="35" height="35"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="30" height="30"/>
             </a>
             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                 <img src="icons8-css-48.png" alt="CSS" width="40" height="40"/>
