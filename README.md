@@ -14,9 +14,9 @@
 
 <table style="width: 100%;">
     <tr>
-        <th style="width: 33%;">Programming Languages</th>
-        <th style="width: 33%;">Markup Languages</th>
-        <th style="width: 33%;">Tools</th>
+        <th style="width: 35%;">Programming Languages</th>
+        <th style="width: 25%;">Markup Languages</th>
+        <th style="width: 40%;">Tools</th>
     </tr>
     <tr>
         <td>
