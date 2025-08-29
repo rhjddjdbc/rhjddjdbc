@@ -21,11 +21,12 @@
   <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
     <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
   </a>
-  <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  </a>
   <a href="https://www.rust-lang.org/" target="_blank">
     <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
+  </a>
+
+  <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   </a>
 </p>
 
@@ -52,6 +53,7 @@
   <a href="https://git-scm.com/" target="_blank">
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
   </a>
+  |
   <a href="http://ghidra.net/" target="_blank">
     <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
   </a>
