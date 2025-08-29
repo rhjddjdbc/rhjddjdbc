@@ -10,30 +10,35 @@
 
 ---
 
-## Markup Languages
-<p align="left">
-  <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  </a>
-</p>
+## Languages
 
----
-
-## Programming Languages
-<p align="left">
-  <a href="https://www.gnu.org/software/bash/" target="_blank">
-    <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
-  </a>
-  <a href="https://www.cprogramming.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  </a>
-  <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
-    <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
-  </a>
-  <a href="https://www.rust-lang.org/" target="_blank">
-      <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
-  </a>
-</p>
+<table>
+    <tr>
+        <th>Markup Languages</th>
+        <th>Programming Languages</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+            </a>
+        </td>
+        <td>
+            <a href="https://www.gnu.org/software/bash/" target="_blank">
+                <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
+            </a>
+            <a href="https://www.cprogramming.com/" target="_blank">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
+                <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
+            </a>
+            <a href="https://www.rust-lang.org/" target="_blank">
+                <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
+            </a>
+        </td>
+    </tr>
+</table>
 
 ---
 
