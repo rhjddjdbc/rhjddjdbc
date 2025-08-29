@@ -12,17 +12,12 @@
 
 ## Languages
 
-<table>
+<table style="width: 100%;">
     <tr>
-        <th>Markup Languages</th>
-        <th>Programming Languages</th>
+        <th style="width: 50%;">Programming Languages</th>
+        <th style="width: 50%;">Markup Languages</th>
     </tr>
     <tr>
-        <td>
-            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-            </a>
-        </td>
         <td>
             <a href="https://www.gnu.org/software/bash/" target="_blank">
                 <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
@@ -37,8 +32,41 @@
                 <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
             </a>
         </td>
+        <td>
+            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+            </a>
+        </td>
     </tr>
 </table>
+
+---
+
+## Tools
+<p align="left">
+  <a href="https://www.linux.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+  </a>
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
+  </a>
+  <a href="https://kubernetes.io/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="MySQL_logo.svg.png" alt="MySQL" width="40" height="40"/>
+  </a>
+  <a href="https://freebsd.org/" target="_blank">
+    <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
+  </a>
+  <a href="http://ghidra.net/" target="_blank">
+    <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
+  </a>
+</p>
+
 
 ---
 
