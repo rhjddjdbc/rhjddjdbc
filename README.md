@@ -84,7 +84,7 @@
 
 * [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering.
 * [**Reverse-shell**](https://github.com/rhjddjdbc/Reverse-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding.
-* [**arch-hardened**](https://github.com/rhjddjdbc/arch-hardend) – Arch Linux hardening script using AppArmor, audit, AIDE.
+* [**arch-hardened**](https://github.com/rhjddjdbc/arch-hardened) – Arch Linux hardening script using AppArmor, audit, AIDE.
 * [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
 * [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 encryption, breach check with hibp, and HMAC logging.
 * [**pwny**](https://github.com/rhjddjdbc/pwny) - pwny.sh Bash-based scanner for XSS, SQLI, LFI, and other common web vulnerabilities.
