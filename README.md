@@ -56,6 +56,9 @@
             <a href="https://www.mysql.com/" target="_blank">
                 <img src="MySQL_logo.svg.png" alt="MySQL" width="40" height="40"/>
             </a>
+             <a href="https://www.jenkins.io/" target="_blank">
+                <img src="icons8-jenkins-48.png" alt="Jenkins" width="40" height="40"/>
+            </a>         
             <a href="https://freebsd.org/" target="_blank">
                 <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
             </a>
