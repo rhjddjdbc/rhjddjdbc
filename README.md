@@ -5,7 +5,7 @@
   Passionate about low-level tooling, security, and automation.<br>
   Learning x86-64 Assembly.<br>
   Building CLI tools with C, Rust and Bash.<br>
-  Working on: A TCP‑based P2P E2E encrypted command‑line messenger written in Rust.”
+  Working on: A TCP‑based P2P E2E encrypted command‑line messenger written in Rust.<br>
 </p>
 
 ---
