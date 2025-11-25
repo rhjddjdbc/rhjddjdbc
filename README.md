@@ -69,6 +69,10 @@
             <a href="http://ghidra.net/" target="_blank">
                 <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
             </a>
+          <a href="https://n8n.io/" target="_blank">
+             <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
+             alt="n8n" width="40" height="40"/>
+          </a>
         </td>
     </tr>
 </table>
