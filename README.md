@@ -71,7 +71,7 @@
             </a>
           <a href="https://n8n.io/" target="_blank">
              <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
-             alt="n8n" width="40" height="40"/>
+             alt="n8n" width="60" height="60"/>
           </a>
         </td>
     </tr>
