@@ -81,27 +81,16 @@
 
 ## Projects
 
-### C
-
-* [**eba**](https://github.com/rhjddjdbc/eba) – ELF Binary Analyzer: headers, entropy, disassembly, strings, symbols.
-* [**viscan**](https://github.com/rhjddjdbc/viscan) – Lightweight malware scanner using ClamAV signature databases (.hdb .fp .ndb .ldb .mdb).
-
----
-
-### Bash
-
-* [**Crawldork**](https://github.com/rhjddjdbc/crawldork) – A Bash tool for URL discovery and local mirroring with sitemap support and optional JS rendering.
-* [**Reverse-shell**](https://github.com/rhjddjdbc/Reverse-shell) – Stealthy Bash reverse shell using GPG encryption and SSH remote port forwarding.
-* [**arch-hardened**](https://github.com/rhjddjdbc/arch-hardened) – Arch Linux hardening script using AppArmor, audit, AIDE.
-* [**dotfiles**](https://github.com/rhjddjdbc/dotfiles) – SwayFX-based Wayland desktop setup with Neovim and Kitty/Foot.
-* [**VaultX**](https://github.com/rhjddjdbc/vaultx) – CLI password manager with AES-256 / 2FA RSA encryption, breach check with HIBP, and HMAC logging.
-* [**pwny**](https://github.com/rhjddjdbc/pwny) - pwny.sh Bash-based scanner for XSS, SQLI, LFI, and other common web vulnerabilities.
-
----
-
-### Rust
-
-* [**http-rust**](https://github.com/rhjddjdbc/http-rust) – Educational multi-threaded HTTP server in Rust with rate limiting and static file serving.
+| Category       | Language | Project | Description |
+|----------------|---------|---------|-------------|
+| Networking     | Rust    | **[http-rust](https://github.com/rhjddjdbc/http-rust)** | Multithread HTTP server with rate limiting |
+| Security Tool  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer – headers, entropy, disassembly, strings |
+| Security Tool  | C       | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
+| Recon          | Bash    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
+| Networking     | Bash    | **[Reverse-shell](https://github.com/rhjddjdbc/Reverse-shell)** | Encrypted GPG + SSH reverse shell |
+| Hardening      | Bash    | **[arch-hardened](https://github.com/rhjddjdbc/arch-hardened)** | Arch Linux hardening using AppArmor, audit, AIDE |
+| Crypto         | Bash    | **[VaultX](https://github.com/rhjddjdbc/vaultx)** | AES‑256 / RSA password manager with HIBP check |
+| Pentest        | Bash    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
 
 ---
 
