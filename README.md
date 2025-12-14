@@ -91,7 +91,7 @@
 | Hardening      | Bash    | **[arch-hardened](https://github.com/rhjddjdbc/arch-hardened)** | Arch Linux hardening using AppArmor, audit, AIDE |
 | Crypto         | Bash    | **[VaultX](https://github.com/rhjddjdbc/vaultx)** | AES‑256 / RSA password manager with HIBP check |
 | Pentest        | Bash    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
-| Container      | Bash    | **[dcg](https://github.com/rhjddjdbc/dcg)**|Bash dev container generater with profiles, rootless users and oh-my-zsh|
+| Container      | Bash    | **[dcg](https://github.com/rhjddjdbc/dcg)**|Dev container generater with profiles, rootless users and oh-my-zsh|
 
 ---
 
