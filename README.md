@@ -6,7 +6,7 @@
   Learning x86-64 Assembly.<br>
   Building CLI tools with C, Rust and Bash.<br>
   Working on: A TCP‑based P2P E2E encrypted command‑line messenger written in Rust with TOFU.<br>
-  I publish technical articles on: rhjddjdbc.github.io/blog/
+  I publish technical articles on: https://rhjddjdbc.github.io/blog/
 </p>
 
 ---
