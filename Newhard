@@ -1,0 +1,405 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Ensure the script is not run as root
+if [ "$EUID" -eq 0 ]; then
+  echo "Please DO NOT run this script as root. Use a user account with sudo privileges."
+  exit 1
+fi
+
+# Check if sudo is available
+if ! command -v sudo >/dev/null; then
+  echo "Error: sudo is not installed. This script requires sudo."
+  exit 1
+fi
+
+echo "=== Arch Linux Hardening Script (Interactive Mode – Updated Dec 2025) ==="
+echo "This script allows you to selectively apply various hardening measures."
+echo "Default for most options is YES (press Enter to accept)."
+echo ""
+
+# Default values
+INSTALL_HARDENED_KERNEL=true
+ENABLE_APPARMOR=true
+ENABLE_USBGUARD=true
+ENABLE_FIREWALL=true
+ENABLE_FIREJAIL=true
+ENABLE_AIDE=true
+ENABLE_CLAMAV=true
+ENABLE_DNSCRYPT=true
+ENABLE_HBLOCK=true
+ENABLE_AUDITD=true
+ENABLE_HARDENED_MALLOC=false
+ENABLE_DOAS_REPLACE=true
+
+# Features
+ENABLE_RESTRICT_ROOT=true
+ENABLE_IPV6_PRIVACY=true
+ENABLE_TORCTL=false
+ENABLE_IPTABLES_NFT=true
+ENABLE_PTRACE_RESTRICT=true
+ENABLE_HIDE_PID=true
+
+# Interactive selection (unverändert)
+read -rp "Install linux-hardened kernel? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && INSTALL_HARDENED_KERNEL=false
+
+read -rp "Enable AppArmor + profiles? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_APPARMOR=false
+
+read -rp "Enable USBGuard (blocks unknown USB devices)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_USBGUARD=false
+
+read -rp "Configure nftables firewall (default drop policy)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_FIREWALL=false
+
+read -rp "Install and enable Firejail? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_FIREJAIL=false
+
+read -rp "Install and initialize AIDE (file integrity monitoring)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_AIDE=false
+
+read -rp "Install ClamAV antivirus? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_CLAMAV=false
+
+read -rp "Set up dnscrypt-proxy (encrypted DNS)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_DNSCRYPT=false
+
+read -rp "Install hBlock (ad/tracker blocker)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_HBLOCK=false
+
+read -rp "Install and configure auditd (system auditing)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_AUDITD=false
+
+read -rp "Enable hardened_malloc (heap exploit mitigation)? [y/N]: " choice
+[[ \( choice =~ ^[Yy] \) ]] && ENABLE_HARDENED_MALLOC=true
+
+read -rp "Replace sudo with doas at the end (recommended for smaller attack surface)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_DOAS_REPLACE=false
+
+read -rp "Restrict root access (su only for wheel, lock root account, deny SSH root login)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_RESTRICT_ROOT=false
+
+read -rp "Enable IPv6 privacy extensions (temporary addresses)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_IPV6_PRIVACY=false
+
+read -rp "Install torctl (system-wide Tor routing – will be enabled only after reboot if chosen)? [y/N]: " choice
+[[ \( choice =~ ^[Yy] \) ]] && ENABLE_TORCTL=true
+
+read -rp "Switch to iptables-nft compatibility layer (for legacy tools)? [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_IPTABLES_NFT=false
+
+read -rp "Restrict ptrace (prevent process tracing/debugging by non-root)? Recommended: yes [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_PTRACE_RESTRICT=false
+
+read -rp "Hide other users' processes in /proc (hidepid=2)? Recommended for multi-user systems [Y/n]: " choice
+[[ \( choice =~ ^[Nn] \) ]] && ENABLE_HIDE_PID=false
+
+echo ""
+echo "Starting selected hardening steps..."
+echo ""
+
+# Install yay if needed (unverändert)
+if ! command -v yay &> /dev/null; then
+  echo "Installing yay (AUR helper)..."
+  sudo pacman -S --needed --noconfirm git base-devel
+  git clone https://aur.archlinux.org/yay.git /tmp/yay
+  pushd /tmp/yay >/dev/null
+  makepkg -si --noconfirm
+  popd >/dev/null
+  rm -rf /tmp/yay
+fi
+
+# ==================== FUNKTION FÜR ALLE SYSCTL-EINSTELLUNGEN ====================
+apply_sysctl_hardening() {
+  echo "Applying all sysctl hardening settings..."
+
+  # Haupt-Datei mit den immer aktiven Einstellungen
+  sudo tee /etc/sysctl.d/99-sec.conf > /dev/null <<EOF
+kernel.kptr_restrict=2
+kernel.dmesg_restrict=1
+kernel.randomize_va_space=2
+fs.protected_symlinks=1
+fs.protected_hardlinks=1
+net.ipv4.conf.all.rp_filter=1
+net.ipv4.conf.default.rp_filter=1
+net.ipv4.tcp_syncookies=1
+net.core.bpf_jit_harden=2
+kernel.unprivileged_bpf_disabled=1
+kernel.unprivileged_userns_clone=0
+vm.unprivileged_userfaultfd=0
+kernel.core_pattern=|/bin/false
+fs.suid_dumpable=0
+EOF
+
+  # ptrace_scope restriction
+  if $ENABLE_PTRACE_RESTRICT; then
+    echo "kernel.yama.ptrace_scope=2" | sudo tee -a /etc/sysctl.d/99-sec.conf > /dev/null
+  fi
+
+  # hidepid=2
+  if $ENABLE_HIDE_PID; then
+    echo "proc.hidepid=2" | sudo tee -a /etc/sysctl.d/99-sec.conf > /dev/null
+  fi
+
+  # IPv6 Privacy Extensions (separate Datei, wie bisher)
+  if $ENABLE_IPV6_PRIVACY; then
+    sudo tee /etc/sysctl.d/40-ipv6-privacy.conf > /dev/null <<EOF
+net.ipv6.conf.all.use_tempaddr=2
+net.ipv6.conf.default.use_tempaddr=2
+EOF
+  fi
+
+  # hardened_malloc spezifisch
+  if $ENABLE_HARDENED_MALLOC; then
+    sudo tee /etc/sysctl.d/99-hardened_malloc.conf > /dev/null <<EOF
+vm.max_map_count=1048576
+EOF
+  fi
+
+  # Alle sysctl-Dateien laden
+  sudo sysctl --system
+}
+
+# ==================== ENDE DER SYSCTL-FUNKTION ====================
+
+# GRUB kernel parameters (wie zuvor, AppArmor conditional)
+echo "Applying core kernel parameters via GRUB..."
+base_params="quiet slab_nomerge random.trust_cpu=off page_alloc.shuffle=1 init_on_alloc=1 init_on_free=1 lockdown=confidentiality loglevel=3"
+
+if $ENABLE_APPARMOR; then
+  apparmor_params="apparmor=1 security=apparmor"
+else
+  apparmor_params=""
+fi
+
+full_params="$base_params $apparmor_params"
+
+if grep -q '^GRUB_CMDLINE_LINUX_DEFAULT=' /etc/default/grub; then
+  sudo sed -i "s|^GRUB_CMDLINE_LINUX_DEFAULT=.*|GRUB_CMDLINE_LINUX_DEFAULT=\"$full_params\"|" /etc/default/grub
+else
+  echo "GRUB_CMDLINE_LINUX_DEFAULT=\"$full_params\"" | sudo tee -a /etc/default/grub
+fi
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# hidepid=2 in fstab (falls aktiviert)
+if $ENABLE_HIDE_PID; then
+  if ! grep -q "hidepid=2" /etc/fstab; then
+    sudo sed -i '/[[:space:]]\/proc[[:space:]]/s/defaults/defaults,hidepid=2/' /etc/fstab || true
+  fi
+fi
+
+echo "umask 0077" | sudo tee /etc/profile.d/umask.sh > /dev/null
+sudo chmod +x /etc/profile.d/umask.sh
+
+sudo tee /etc/security/limits.d/99-disable-coredumps.conf > /dev/null <<EOF
+* hard core 0
+* soft core 0
+EOF
+sudo mkdir -p /etc/systemd/coredump.conf.d
+sudo tee /etc/systemd/coredump.conf.d/disable.conf > /dev/null <<EOF
+[Coredump]
+Storage=none
+ProcessSizeMax=0
+EOF
+
+sudo tee /etc/modprobe.d/uncommon-protocols-filesystems.conf > /dev/null <<EOF
+install dccp /bin/false
+install sctp /bin/false
+install rds /bin/false
+install tipc /bin/false
+install cramfs /bin/false
+install freevxfs /bin/false
+install jffs2 /bin/false
+install hfs /bin/false
+install hfsplus /bin/false
+install squashfs /bin/false
+install udf /bin/false
+EOF
+
+echo "Boosting entropy..."
+sudo pacman -S --noconfirm haveged
+yay -S --noconfirm jitterentropy-rng
+sudo systemctl enable --now haveged
+
+# iptables-nft compatibility layer
+if $ENABLE_IPTABLES_NFT; then
+  echo "Switching to iptables-nft compatibility layer..."
+  sudo pacman -S --noconfirm iptables-nft
+fi
+
+# Restrict root access (unverändert)
+if $ENABLE_RESTRICT_ROOT; then
+  echo "Restricting root access..."
+  sudo sed -i 's/#auth[[:space:]]\+required[[:space:]]\+pam_wheel.so use_uid/auth required pam_wheel.so use_uid/' /etc/pam.d/su 2>/dev/null || true
+  if [ -f /etc/pam.d/su-l ]; then
+    sudo sed -i 's/#auth[[:space:]]\+required[[:space:]]\+pam_wheel.so use_uid/auth required pam_wheel.so use_uid/' /etc/pam.d/su-l
+  fi
+  echo "Locking root account..."
+  sudo passwd -l root
+  if pacman -Qq openssh &>/dev/null || command -v sshd &>/dev/null; then
+    echo "Denying root login via SSH..."
+    if grep -q "^PermitRootLogin" /etc/ssh/sshd_config; then
+      sudo sed -i 's/^PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config
+    else
+      echo "PermitRootLogin no" | sudo tee -a /etc/ssh/sshd_config > /dev/null
+    fi
+    sudo systemctl restart sshd || true
+  fi
+fi
+
+# === Hier wird die neue Funktion aufgerufen ===
+apply_sysctl_hardening
+
+# Optional features (der Rest bleibt unverändert)
+if $INSTALL_HARDENED_KERNEL; then
+  echo "Installing linux-hardened kernel..."
+  sudo pacman -Sy --noconfirm linux-hardened linux-hardened-headers
+fi
+
+if $ENABLE_APPARMOR; then
+  echo "Enabling AppArmor..."
+  sudo pacman -S --noconfirm apparmor
+  sudo systemctl enable --now apparmor
+  yay -S --noconfirm apparmor-profiles-git
+fi
+
+if $ENABLE_USBGUARD; then
+  echo "Enabling USBGuard..."
+  sudo pacman -S --noconfirm usbguard
+  sudo systemctl enable --now usbguard
+  sudo usbguard generate-policy | sudo tee /etc/usbguard/rules.conf > /dev/null
+fi
+
+if $ENABLE_FIREWALL; then
+  echo "Configuring nftables firewall..."
+  sudo pacman -S --noconfirm nftables
+  sudo systemctl enable --now nftables
+  sudo tee /etc/nftables.conf > /dev/null <<EOF
+table inet filter {
+  chain input {
+    type filter hook input priority 0;
+    policy drop;
+    ct state established,related accept
+    iif lo accept
+    ip protocol icmp accept
+    tcp dport {22, 80, 443} accept
+  }
+}
+EOF
+fi
+
+if $ENABLE_FIREJAIL; then
+  echo "Installing Firejail..."
+  sudo pacman -S --noconfirm firejail
+  sudo systemctl enable --now firejail
+fi
+
+if $ENABLE_HARDENED_MALLOC; then
+  echo "Enabling hardened_malloc..."
+  read -rp "Which variant? (1/light [recommended], 2/full) [1]: " malloc_variant
+  malloc_variant=${malloc_variant:-1}
+  case "$malloc_variant" in
+    1|light|l|L)
+      yay -S --noconfirm hardened_malloc
+      echo "/usr/lib/libhardened_malloc-light.so" | sudo tee /etc/ld.so.preload > /dev/null
+      ;;
+    2|full|f|F)
+      yay -S --noconfirm hardened_malloc
+      echo "/usr/lib/libhardened_malloc.so" | sudo tee /etc/ld.so.preload > /dev/null
+      ;;
+    *)
+      echo "Invalid choice – skipping hardened_malloc."
+      ;;
+  esac
+fi
+
+if $ENABLE_AIDE; then
+  echo "Installing AIDE..."
+  yay -S --noconfirm aide
+  sudo aide --init
+  sudo mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+fi
+
+if $ENABLE_CLAMAV; then
+  echo "Installing ClamAV..."
+  sudo pacman -S --noconfirm clamav
+  sudo systemctl enable --now clamav-freshclam
+  clamscan -r --bell -i "$HOME" || true
+fi
+
+if $ENABLE_DNSCRYPT; then
+  echo "Setting up dnscrypt-proxy..."
+  sudo pacman -S --noconfirm dnscrypt-proxy
+  sudo sed -i 's/^# server_names =.*/server_names = ["libredns"]/' /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+  sudo sed -i 's/^# require_dnssec = false/require_dnssec = true/' /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+  sudo systemctl enable --now dnscrypt-proxy
+  echo "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf > /dev/null
+fi
+
+if $ENABLE_HBLOCK; then
+  echo "Installing hBlock..."
+  sudo pacman -S --noconfirm hblock
+  sudo hblock
+fi
+
+if $ENABLE_AUDITD; then
+  echo "Installing auditd..."
+  sudo pacman -S --noconfirm audit
+  sudo systemctl enable --now auditd
+  sudo tee /etc/audit/rules.d/arch-hardening.rules > /dev/null <<'EOF'
+-a always,exit -F path=/usr/bin/doas -F perm=x -F auid>=1000 -F auid!=4294967295 -k doas-calls
+-w /etc/ -p wa -k etc-changes
+-w /etc/passwd -p wa -k passwd-watch
+-w /etc/shadow -p wa -k shadow-watch
+-w /etc/doas.conf -p wa -k doasconf
+-w /etc/pacman.conf -p wa -k pkg-conf
+-a always,exit -F arch=b64 -S init_module -S delete_module -k kernel-module
+-w /etc/group -p wa -k group-change
+-w /etc/gshadow -p wa -k gshadow-change
+-w /home/ -p rwxa -k home-access
+-w /boot/ -p wa -k boot-watch
+-w /etc/adjtime -p wa -k time-change
+-w /etc/systemd/timesyncd.conf -p wa -k timesync-change
+EOF
+  sudo augenrules --load
+fi
+
+# Replace sudo with doas
+if $ENABLE_DOAS_REPLACE; then
+  echo ""
+  echo "=== Replacing sudo with doas ==="
+  sudo pacman -S --noconfirm opendoas
+  echo 'permit persist :wheel' | sudo tee /etc/doas.conf > /dev/null
+
+  echo "Testing doas configuration..."
+  if ! doas true || ! doas id >/dev/null || ! doas ls /root >/dev/null 2>&1; then
+    echo "doas test failed – aborting sudo removal to prevent lockout."
+  else
+    read -rp "doas works perfectly. Remove sudo now? (y/N): " remove_sudo
+    if [[ \( remove_sudo =~ ^[Yy] \) ]]; then
+      doas pacman -Rdd --noconfirm sudo
+      echo "sudo removed. Use 'doas' for privileged commands."
+    else
+      echo "Keeping sudo."
+    fi
+  fi
+fi
+
+# Torctl
+if $ENABLE_TORCTL; then
+  echo ""
+  echo "=== Installing torctl (system-wide Tor routing) ==="
+  echo "torctl will be installed and enabled at boot, but NOT started now."
+  echo "After reboot, you can activate it manually with: sudo torctl start"
+  yay -S --noconfirm torctl-git tor
+  sudo systemctl enable tor.service
+  sudo torctl autostart
+fi
+
+echo ""
+echo "=== Hardening complete ==="
+read -rp "Reboot to apply all changes? (y/N): " reboot_choice
+[[ \( reboot_choice =~ ^[Yy] \) ]] && sudo reboot
