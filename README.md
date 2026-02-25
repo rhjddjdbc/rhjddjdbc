@@ -88,11 +88,11 @@
 | Security       | C       | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
 | Recon          | Bash    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
 | Networking     | Bash    | **[Reverse-shell](https://github.com/rhjddjdbc/Reverse-shell)** | Encrypted GPG + SSH reverse shell |
+| Networking     | Bash    | **[LocalNetScan](https://github.com/rhjddjdbc/LocalNetScan)** | Fast network and port scanner with optional MAC spoofing |
 | Hardening      | Bash    | **[arch-hardened](https://github.com/rhjddjdbc/arch-hardened)** | Arch Linux hardening using AppArmor, audit, AIDE |
 | Crypto         | Bash    | **[VaultX](https://github.com/rhjddjdbc/vaultx)** | AES‑256 / RSA password manager with HIBP check |
 | Pentest        | Bash    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
 | Container      | Bash    | **[dcg](https://github.com/rhjddjdbc/dcg)**|Dev container generater with profiles, rootless users and oh-my-zsh|
-| Networking     | Bash    | **[LocalNetScan](https://github.com/rhjddjdbc/LocalNetScan)** | Fast network and port scanner with optional MAC spoofing |
 
 ---
 
