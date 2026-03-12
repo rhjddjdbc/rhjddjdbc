@@ -84,7 +84,7 @@
 |----------------|---------|---------|-------------|
 | Pentest        | Rust    | **[elf_fuzzer](https://github.com/rhjddjdbc/elf_fuzzer)** | Mutation fuzzer for discovering crashes in ELF binaries |
 | Networking     | Rust    | **[http-rust](https://github.com/rhjddjdbc/http-rust)** | Multithread HTTP server with rate limiting |
-| Security / RE  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer – headers, entropy, disassembly, strings |
+| Security / RE  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer - headers, entropy, disassembly, strings |
 | Security       | C       | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
 | Recon          | Bash    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
 | Networking     | Bash    | **[Reverse-shell](https://github.com/rhjddjdbc/Reverse-shell)** | Encrypted GPG + SSH reverse shell |
