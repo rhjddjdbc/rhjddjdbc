@@ -84,7 +84,7 @@
 |----------------|---------|---------|-------------|
 | Pentest        | Rust    | **[elf_fuzzer](https://github.com/rhjddjdbc/elf_fuzzer)** | Mutation fuzzer for discovering crashes in ELF binaries |
 | Networking     | Rust    | **[http-rust](https://github.com/rhjddjdbc/http-rust)** | Multithread HTTP server with rate limiting |
-| Security / RE  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer - headers, entropy, disassembly, strings |
+| Security / RE  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer - headers, entropy, disassembly, strings and more |
 | Security       | C       | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
 | Crypto         | C       | **[lms-cli](https://github.com/rhjddjdbc/lms-cli)** | lms-cli: Lightweight RFC 8554 compliant LMS signature tool. |
 | Recon          | Bash    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
