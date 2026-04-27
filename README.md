@@ -12,7 +12,7 @@
 ## Languages & Tools
 | OS | Container | CI/CD & Automation | Version Control | Reverse Engineering | Database | Markup | Programming |
 |----|-----------|-------------------|-----------------|---------------------|----------|--------|-------------|
-| Linux, FreeBSD | Docker | Jenkins, n8n | Git | Ghidra | MySQL | Markdown, CSS, HTML | Bash, C, Assembly, Rust |
+| Linux, FreeBSD | Docker, Podman, Lxc | Jenkins, n8n | Git | Ghidra radare2 | MySQL | Markdown, CSS, HTML | Bash, C, Assembly, Rust |
 
 --- 
 
