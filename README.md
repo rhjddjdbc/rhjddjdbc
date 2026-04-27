@@ -11,37 +11,9 @@
 
 ## Languages & Tools
 
-<table>
-  <tr>
-    <th>Tools</th>
-    <th>Markup Languages</th>
-    <th>Programming Languages</th>
-  </tr>
-  <tr>
-    <td><nobr>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="32" height="32">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="32" height="32">
-      <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="32" height="32">
-      <img src="MySQL_logo.svg.png" width="32" height="32">
-      <img src="icons8-jenkins-48.png" width="32" height="32">
-      <img src="image_proxy.png" width="32" height="32">
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="32" height="32">
-      <img src="Ghidra_logo.svg" width="32" height="32">
-      <img src="https://cdn.simpleicons.org/n8n/000000" width="32" height="32">
-    </nobr></td>
-    <td><nobr>
-      <img src="icons8-markdown-80.png" width="32" height="32">
-      <img src="icons8-css-48.png" width="32" height="32">
-      <img src="icons8-html-48.png" width="32" height="32">
-    </nobr></td>
-    <td><nobr>
-      <img src="icons8-bash-48.png" width="32" height="32">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="32" height="32">
-      <img src="icons8-assembly-48.png" width="32" height="32">
-      <img src="pngaaa.com-4373403.png" width="32" height="32">
-    </nobr></td>
-  </tr>
-</table>
+| Tools | Markup Languages | Programming Languages |
+|-------|------------------|------------------------|
+| Linux, Docker, n8n, Git, Ghidra, Jenkins, MySQL, FreeBSD | Markdown, CSS, HTML | Bash, C, Assembly, Rust |
 
 --- 
 
