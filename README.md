@@ -18,6 +18,7 @@
         <th style="width: 40%;">Tools</th>
     </tr>
     <tr>
+        <!-- PROGRAMMING LANGUAGES -->
         <td>
             <a href="https://www.gnu.org/software/bash/" target="_blank">
                 <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
@@ -29,9 +30,12 @@
                 <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
             </a>
             <a href="https://www.rust-lang.org/" target="_blank">
-                <img src="pngaaa.com-4373403.png" alt="Rust" width="50" height="50"/>
+                
+                <img src="pngaaa.com-4373403.png" alt="Rust" width="40" height="40"/>
             </a>
         </td>
+
+        <!-- MARKUP LANGUAGES -->
         <td>
             <a href="https://www.markdownguide.org/" target="_blank">
                 <img src="icons8-markdown-80.png" alt="Markdown" width="40" height="40"/>
@@ -43,6 +47,8 @@
                 <img src="icons8-html-48.png" alt="HTML5" width="40" height="40"/>
             </a>
         </td>
+
+        <!-- TOOLS -->
         <td>
             <a href="https://www.linux.org/" target="_blank">
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
@@ -56,7 +62,7 @@
             <a href="https://www.mysql.com/" target="_blank">
                 <img src="MySQL_logo.svg.png" alt="MySQL" width="40" height="40"/>
             </a>
-             <a href="https://www.jenkins.io/" target="_blank">
+            <a href="https://www.jenkins.io/" target="_blank">
                 <img src="icons8-jenkins-48.png" alt="Jenkins" width="40" height="40"/>
             </a>         
             <a href="https://freebsd.org/" target="_blank">
@@ -68,14 +74,14 @@
             <a href="http://ghidra.net/" target="_blank">
                 <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
             </a>
-          <a href="https://n8n.io/" target="_blank">
-             <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
-             alt="n8n" width="60" height="60"/>
-          </a>
+            <a href="https://n8n.io/" target="_blank">
+
+                <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
+                     alt="n8n" width="40" height="40"/>
+            </a>
         </td>
     </tr>
-</table>
-
+  </table>
 --- 
 
 ## Projects
