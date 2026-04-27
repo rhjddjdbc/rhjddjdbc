@@ -11,70 +11,9 @@
 
 ## Languages & Tools
 
-<table style="width: 100%;">
-    <tr>
-        <th style="width: 35%;">Programming Languages</th>
-        <th style="width: 25%;">Markup Languages</th>
-        <th style="width: 40%;">Tools</th>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://www.gnu.org/software/bash/" target="_blank">
-                <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
-            </a>
-            <a href="https://www.cprogramming.com/" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-            </a>
-            <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">
-                <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
-            </a>
-            <a href="https://www.rust-lang.org/" target="_blank">
-                <img src="pngaaa.com-4373403.png" alt="Rust" width="40" height="40"/>
-            </a>
-        </td>
-        <td>
-            <a href="https://www.markdownguide.org/" target="_blank">
-                <img src="icons8-markdown-80.png" alt="Markdown" width="40" height="40"/>
-            </a>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="icons8-css-48.png" alt="CSS" width="40" height="40"/>
-            </a>
-            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
-                <img src="icons8-html-48.png" alt="HTML5" width="40" height="40"/>
-            </a>
-        </td>
-        <td>
-            <a href="https://www.linux.org/" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-            </a>
-            <a href="https://www.docker.com/" target="_blank">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
-            </a>
-            <a href="https://kubernetes.io/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40"/>
-            </a>
-            <a href="https://www.mysql.com/" target="_blank">
-                <img src="MySQL_logo.svg.png" alt="MySQL" width="40" height="40"/>
-            </a>
-            <a href="https://www.jenkins.io/" target="_blank">
-                <img src="icons8-jenkins-48.png" alt="Jenkins" width="40" height="40"/>
-            </a>         
-            <a href="https://freebsd.org/" target="_blank">
-                <img src="image_proxy.png" alt="FreeBSD" width="40" height="40"/>
-            </a>
-            <a href="https://git-scm.com/" target="_blank">
-                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-            </a>
-            <a href="http://ghidra.net/" target="_blank">
-                <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
-            </a>
-            <a href="https://n8n.io/" target="_blank">
-                <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
-                     alt="n8n" width="40" height="40"/>
-            </a>
-        </td>
-    </tr>
-</table>
+| Programming Languages | Markup Languages | Tools |
+|-----------------------|------------------|-------|
+| ![Bash](icons8-bash-48.png) ![C](https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg) ![Assembly](icons8-assembly-48.png) ![Rust](pngaaa.com-4373403.png) | ![Markdown](icons8-markdown-80.png) ![CSS](icons8-css-48.png) ![HTML5](icons8-html-48.png) | ![Linux](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg) ![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg) ![Kubernetes](https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg) ![MySQL](MySQL_logo.svg.png) ![Jenkins](icons8-jenkins-48.png) ![FreeBSD](image_proxy.png) ![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg) ![Ghidra](Ghidra_logo.svg) ![n8n](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png) |
 
 --- 
 
