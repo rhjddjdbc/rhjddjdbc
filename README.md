@@ -11,10 +11,9 @@
 
 ## Languages & Tools
 
-| Programming Languages | Markup Languages | Tools |
-|-----------------------|------------------|-------|
-| ![Bash](icons8-bash-48.png) ![C](https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg) ![Assembly](icons8-assembly-48.png) ![Rust](pngaaa.com-4373403.png) | ![Markdown](icons8-markdown-80.png) ![CSS](icons8-css-48.png) ![HTML5](icons8-html-48.png) | ![Linux](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg) ![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg) ![Kubernetes](https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg) ![MySQL](MySQL_logo.svg.png) ![Jenkins](icons8-jenkins-48.png) ![FreeBSD](image_proxy.png) ![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg) ![Ghidra](Ghidra_logo.svg) ![n8n](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png) |
-
+| Tools | Markup Languages | Programming Languages |
+|-------|------------------|-----------------------|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="48"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" height="48"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" height="48"> <img src="MySQL_logo.svg.png" height="48"> <img src="icons8-jenkins-48.png" height="48"> <img src="image_proxy.png" height="48"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="48"> <img src="Ghidra_logo.svg" height="48"> <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" height="48"> | <img src="icons8-markdown-80.png" height="48"> <img src="icons8-css-48.png" height="48"> <img src="icons8-html-48.png" height="48"> | <img src="icons8-bash-48.png" height="48"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" height="48"> <img src="icons8-assembly-48.png" height="48"> <img src="pngaaa.com-4373403.png" height="48"> |
 --- 
 
 ## Projects
