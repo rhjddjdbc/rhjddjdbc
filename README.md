@@ -18,7 +18,6 @@
         <th style="width: 40%;">Tools</th>
     </tr>
     <tr>
-        <!-- PROGRAMMING LANGUAGES -->
         <td>
             <a href="https://www.gnu.org/software/bash/" target="_blank">
                 <img src="icons8-bash-48.png" alt="Bash" width="40" height="40"/>
@@ -30,12 +29,9 @@
                 <img src="icons8-assembly-48.png" alt="Assembly" width="40" height="40"/>
             </a>
             <a href="https://www.rust-lang.org/" target="_blank">
-                
                 <img src="pngaaa.com-4373403.png" alt="Rust" width="40" height="40"/>
             </a>
         </td>
-
-        <!-- MARKUP LANGUAGES -->
         <td>
             <a href="https://www.markdownguide.org/" target="_blank">
                 <img src="icons8-markdown-80.png" alt="Markdown" width="40" height="40"/>
@@ -47,8 +43,6 @@
                 <img src="icons8-html-48.png" alt="HTML5" width="40" height="40"/>
             </a>
         </td>
-
-        <!-- TOOLS -->
         <td>
             <a href="https://www.linux.org/" target="_blank">
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
@@ -75,13 +69,13 @@
                 <img src="Ghidra_logo.svg" alt="Ghidra" width="40" height="40"/>
             </a>
             <a href="https://n8n.io/" target="_blank">
-
                 <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" 
                      alt="n8n" width="40" height="40"/>
             </a>
         </td>
     </tr>
-  </table>
+</table>
+
 --- 
 
 ## Projects
@@ -101,13 +95,12 @@
 | Pentest        | Bash    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
 | Container      | Bash    | **[dcg](https://github.com/rhjddjdbc/dcg)**| Dev container generater with profiles, rootless users and oh-my-zsh |
 | Crypto         | asm     | **[otp-asm](https://github.com/rhjddjdbc/otp-asm)**| One Time Pad Cli Tool in x86-64 Assembly|
----
 
+---
 
 <div align="center">
   <img src="output.gif" alt="Screenshot" width="1000">
 </div>
-
 
 ---
 
