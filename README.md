@@ -10,10 +10,9 @@
 ---
 
 ## Languages & Tools
-
-| Tools | Markup Languages | Programming Languages |
-|-------|------------------|------------------------|
-| Linux, Docker, n8n, Git, Ghidra, Jenkins, MySQL, FreeBSD | Markdown, CSS, HTML | Bash, C, Assembly, Rust |
+| OS | Container | CI/CD & Automation | Version Control | Reverse Engineering | Database | Markup | Programming |
+|----|-----------|-------------------|-----------------|---------------------|----------|--------|-------------|
+| Linux, FreeBSD | Docker | Jenkins, n8n | Git | Ghidra | MySQL | Markdown, CSS, HTML | Bash, C, Assembly, Rust |
 
 --- 
 
