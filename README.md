@@ -18,6 +18,7 @@
 | Version Control      | Git, Jujutsu                                         |
 | Reverse Engineering  | Ghidra, radare2, GDB                                 |
 | Database             | MySQL, SQLite                                        |
+| Data Structures      | JSON, YAML, TOML, CSV, XML                           |
 | Markup               | Markdown, CSS, HTML                                  |
 | Programming          | Bash, C, Assembly, Rust                              |
 --- 
