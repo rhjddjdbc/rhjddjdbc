@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm rhjddjdbc :)</h1>
-<h3 align="center">DevOps · Linux · IT Security · Reverse Engineering</h3>
+<h3 align="center">(Sec)DevOps · Linux · IT Security · Reverse Engineering</h3>
 
 <p align="center">
   Passionate about low-level tooling, security, and automation.<br>
