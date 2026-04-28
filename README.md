@@ -17,7 +17,7 @@
 | CI/CD & Automation   | Jenkins, Kubernetes, make, n8n                       |
 | Version Control      | Git, Jujutsu                                         |
 | Reverse Engineering  | Ghidra, radare2, GDB                                 |
-| Database             | MySQL, SQLite                                        |
+| Database             | MySQL, SQLite, MongoDB                               |
 | Data Structures      | JSON, YAML, TOML, CSV, XML                           |
 | Markup               | Markdown, CSS, HTML                                  |
 | Programming          | Bash, C, Assembly, Rust                              |
