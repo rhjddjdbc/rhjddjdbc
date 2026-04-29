@@ -12,15 +12,16 @@
 ## Languages & Tools
 | Category             | Tools                                                |
 |----------------------|------------------------------------------------------|
-| OS                   | Linux (Arch, NixOS, Proxmox), FreeBSD, OpenBSD, TempleOS |
-| VM / Containerr      | Xen, Docker / Podman, LXC                                 |
-| CI/CD & Automation   | Jenkins, Kubernetes, make, n8n                       |
-| Version Control      | Git, Jujutsu                                         |
-| Reverse Engineering  | Ghidra, radare2, GDB                                 |
-| Database             | MySQL, SQLite, MongoDB                               |
-| Data Structures      | JSON, YAML, TOML, CSV, XML                           |
-| Markup               | Markdown, CSS, HTML                                  |
-| Programming          | Bash, C, Assembly, Rust                              |
+| OS                   | [Arch Linux](https://arch.org), [NixOS](https://nixos.org), [Proxmox](https://proxmox.com), [FreeBSD](https://freebsd.org), [OpenBSD](https://openbsd.org), [TempleOS](https://www.templeos.org) |
+| VM / Container       | [Xen](https://xenproject.org), [Docker](https://docker.com) / [Podman](https://podman.io), [LXC](https://linuxcontainers.org) |
+| CI/CD & Automation   | [Jenkins](https://jenkins.io), [Kubernetes](https://kubernetes.io), [make](https://gnu.org/software/make), [n8n](https://n8n.io) |
+| Version Control      | [Git](https://git-scm.com), [Jujutsu](https://github.com/martinvonz/jj) |
+| Reverse Engineering  | [Ghidra](https://ghidra-sre.org), [radare2](https://radare.org), [GDB](https://sourceware.org/gdb) |
+| Database             | [MySQL](https://mysql.com), [SQLite](https://sqlite.org), [MongoDB](https://mongodb.com) |
+| Data Structures      | [JSON](https://json.org), [YAML](https://yaml.org), [TOML](https://toml.io), CSV, [XML](https://w3.org/XML) |
+| Markup               | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html) |
+| Programming          | [Bash](https://gnu.org/software/bash), [C](https://en.cppreference.com/w/c), [Assembly](https://en.wikipedia.org/wiki/Assembly_language), [Rust](https://rust-lang.org) |
+
 --- 
 
 ## Projects
