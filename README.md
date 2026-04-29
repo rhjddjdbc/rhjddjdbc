@@ -19,7 +19,7 @@
 | Reverse Engineering  | [Ghidra](https://ghidra-sre.org), [radare2](https://radare.org), [GDB](https://sourceware.org/gdb) |
 | Database             | [MySQL](https://mysql.com), [SQLite](https://sqlite.org), [MongoDB](https://mongodb.com) |
 | Data Structures      | [JSON](https://json.org), [YAML](https://yaml.org), [TOML](https://toml.io), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [XML](https://w3.org/XML) |
-| Markup               | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html) |
+| Markup               | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html), [LaTeX](https://www.latex-project.org/) |
 | Programming          | [Bash](https://gnu.org/software/bash), [C](https://en.cppreference.com/w/c), [Assembly](https://en.wikipedia.org/wiki/Assembly_language), [Rust](https://rust-lang.org) |
 
 
