@@ -29,19 +29,19 @@
 
 | Category       | Language | Project | Description |
 |----------------|---------|---------|-------------|
-| Pentest        | Rust    | **[elf_fuzzer](https://github.com/rhjddjdbc/elf_fuzzer)** | Mutation fuzzer for discovering crashes in ELF binaries |
-| Networking     | Rust    | **[http-rust](https://github.com/rhjddjdbc/http-rust)** | Multithread HTTP server with rate limiting |
-| Security / RE  | C       | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer - headers, entropy, disassembly, strings and more |
-| Security       | C       | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
-| Crypto         | C       | **[lms-cli](https://github.com/rhjddjdbc/lms-cli)** | lms-cli: Lightweight RFC 8554 compliant LMS signature tool. |
-| Recon          | Bash    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
-| Networking     | Bash    | **[Reverse-shell](https://github.com/rhjddjdbc/Reverse-shell)** | Encrypted GPG + SSH reverse shell |
-| Networking     | Bash    | **[LocalNetScan](https://github.com/rhjddjdbc/LocalNetScan)** | Fast network and port scanner with optional MAC spoofing |
-| Hardening      | Bash    | **[arch-hardened](https://github.com/rhjddjdbc/arch-hardened)** | Arch Linux hardening using AppArmor, audit, AIDE |
-| Crypto         | Bash    | **[VaultX](https://github.com/rhjddjdbc/vaultx)** | AES‑256 / RSA password manager with HIBP check |
-| Pentest        | Bash    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
-| Container      | Bash    | **[dcg](https://github.com/rhjddjdbc/dcg)**| Dev container generater with profiles, rootless users and oh-my-zsh |
-| Crypto         | asm     | **[otp-asm](https://github.com/rhjddjdbc/otp-asm)**| One Time Pad Cli Tool in x86-64 Assembly|
+| Pentest        | [Rust](https://rust-lang.org)    | **[elf_fuzzer](https://github.com/rhjddjdbc/elf_fuzzer)** | Mutation fuzzer for discovering crashes in ELF binaries |
+| Networking     | [Rust](https://rust-lang.org)    | **[http-rust](https://github.com/rhjddjdbc/http-rust)** | Multithread HTTP server with rate limiting |
+| Security / RE  | [C](https://en.cppreference.com/w/c)      | **[eba](https://github.com/rhjddjdbc/eba)** | ELF Analyzer - headers, entropy, disassembly, strings and more |
+| Security       | [C](https://en.cppreference.com/w/c)      | **[viscan](https://github.com/rhjddjdbc/viscan)** | Lightweight malware scanner using ClamAV signatures |
+| Crypto         | [C](https://en.cppreference.com/w/c)      | **[lms-cli](https://github.com/rhjddjdbc/lms-cli)** | lms-cli: Lightweight RFC 8554 compliant LMS signature tool. |
+| Recon          | [Bash](https://gnu.org/software/bash)    | **[Crawldork](https://github.com/rhjddjdbc/crawldork)** | URL discovery with sitemap + optional JS rendering |
+| Networking     | [Bash](https://gnu.org/software/bash)    | **[Reverse-shell](https://github.com/rhjddjdbc/Reverse-shell)** | Encrypted GPG + SSH reverse shell |
+| Networking     | [Bash](https://gnu.org/software/bash)    | **[LocalNetScan](https://github.com/rhjddjdbc/LocalNetScan)** | Fast network and port scanner with optional MAC spoofing |
+| Hardening      | [Bash](https://gnu.org/software/bash)    | **[arch-hardened](https://github.com/rhjddjdbc/arch-hardened)** | Arch Linux hardening using AppArmor, audit, AIDE |
+| Crypto         | [Bash](https://gnu.org/software/bash)    | **[VaultX](https://github.com/rhjddjdbc/vaultx)** | AES‑256 / RSA password manager with HIBP check |
+| Pentest        | [Bash](https://gnu.org/software/bash)    | **[pwny](https://github.com/rhjddjdbc/pwny)** | Bash scanner for XSS, SQLI, LFI, etc. |
+| Container      | [Bash](https://gnu.org/software/bash)    | **[dcg](https://github.com/rhjddjdbc/dcg)**| Dev container generater with profiles, rootless users and oh-my-zsh |
+| Crypto         | [asm](https://en.wikipedia.org/wiki/Assembly_language)     | **[otp-asm](https://github.com/rhjddjdbc/otp-asm)**| One Time Pad Cli Tool in x86-64 Assembly|
 
 ---
 
