@@ -12,7 +12,7 @@
 ## Languages & Tools
 | Category             | Tools                                                |
 |----------------------|------------------------------------------------------|
-| OS                   | [Arch Linux](https://arch.org), [NixOS](https://nixos.org), [Proxmox](https://proxmox.com), [FreeBSD](https://freebsd.org), [OpenBSD](https://openbsd.org), [TempleOS](https://www.templeos.org) |
+| OS                   | [Linux](https://www.linuxfoundation.org/) ([Arch Linux](https://arch.org), [NixOS](https://nixos.org), [Proxmox](https://proxmox.com)), [FreeBSD](https://freebsd.org), [OpenBSD](https://openbsd.org), [TempleOS](https://www.templeos.org) |
 | VM / Container       | [Xen](https://xenproject.org), [Docker](https://docker.com) / [Podman](https://podman.io), [LXC](https://linuxcontainers.org) |
 | CI/CD & Automation   | [Jenkins](https://jenkins.io), [Kubernetes](https://kubernetes.io), [make](https://gnu.org/software/make), [n8n](https://n8n.io) |
 | Version Control      | [Git](https://git-scm.com), [Jujutsu](https://github.com/martinvonz/jj) |
