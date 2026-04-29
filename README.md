@@ -13,7 +13,7 @@
 | Category             | Tools                                                |
 |----------------------|------------------------------------------------------|
 | OS                   | Linux (Arch, NixOS, Proxmox), FreeBSD, OpenBSD, TempleOS |
-| Container            | Docker / Podman, LXC                                 |
+| VM / Containerr      | Xen, Docker / Podman, LXC                                 |
 | CI/CD & Automation   | Jenkins, Kubernetes, make, n8n                       |
 | Version Control      | Git, Jujutsu                                         |
 | Reverse Engineering  | Ghidra, radare2, GDB                                 |
