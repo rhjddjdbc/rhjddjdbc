@@ -13,13 +13,13 @@
 | Category             | Tools                                                |
 |----------------------|------------------------------------------------------|
 | OS                   |  [Linux](https://www.linuxfoundation.org/) ([Arch Linux](https://arch.org), [NixOS](https://nixos.org), [Proxmox](https://proxmox.com)), [FreeBSD](https://freebsd.org), [OpenBSD](https://openbsd.org), [GNU/Hurd](https://www.gnu.org/software/hurd/), [TempleOS](https://www.templeos.org) |
-| VM/Container         | [Xen](https://xenproject.org), [Docker](https://docker.com) / [Podman](https://podman.io), [LXC](https://linuxcontainers.org) |
-| CI/CD & Automation   | [Jenkins](https://jenkins.io), [Kubernetes](https://kubernetes.io), [make](https://gnu.org/software/make), [n8n](https://n8n.io) |
+| VM / Container       | [Xen](https://xenproject.org), [Docker](https://docker.com) / [Podman](https://podman.io), [LXC](https://linuxcontainers.org) |
+| CI / CD & Automation | [Jenkins](https://jenkins.io), [Kubernetes](https://kubernetes.io), [make](https://gnu.org/software/make), [n8n](https://n8n.io) |
 | Version Control      | [Git](https://git-scm.com), [Jujutsu](https://github.com/martinvonz/jj) |
 | Reverse Engineering  | [Ghidra](https://ghidra-sre.org), [radare2](https://radare.org), [GDB](https://sourceware.org/gdb) |
 | Database             | [MySQL](https://mysql.com), [SQLite](https://sqlite.org), [MongoDB](https://mongodb.com) |
 | Data Structures      | [JSON](https://json.org), [YAML](https://yaml.org), [TOML](https://toml.io), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [XML](https://w3.org/XML) |
-| Markup/Style         | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html), [LaTeX](https://www.latex-project.org/) |
+| Markup / Style       | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html), [LaTeX](https://www.latex-project.org/) |
 | Programming          | [Bash](https://gnu.org/software/bash), [C](https://en.cppreference.com/w/c), [Assembly](https://en.wikipedia.org/wiki/Assembly_language), [Rust](https://rust-lang.org) |
 
 
