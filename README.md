@@ -1,9 +1,10 @@
 <h1 align="center">Hi, I'm rhjddjdbc :)</h1>
-<h3 align="center">(Sec)DevOps · Linux · IT Security · Reverse Engineering</h3>
+<h3 align="center">(Sec)DevOps - Linux - IT Security - Reverse Engineering</h3>
 
 <p align="center">
   Passionate about low-level tooling, security, and automation.<br>
-  Building CLI tools with x86-64 Assembly, C, Rust and Bash.<br>
+  Building tools (for the terminal) with x86-64 Assembly, C, Rust and Bash.<br>
+  Occasionally shipping things that are just for fun -- because tooling should be enjoyable too.<br>
   I publish technical articles on: <strong><a href="https://rhjddjdbc.github.io/blog/">rhjddjdbc.github.io</a></strong>
 </p>
 
@@ -17,14 +18,14 @@
 | **CI / CD & Automation** | [Jenkins](https://jenkins.io), [Kubernetes](https://kubernetes.io), [make](https://gnu.org/software/make), [n8n](https://n8n.io) |
 | **Version Control**      | [Git](https://git-scm.com), [Jujutsu](https://github.com/martinvonz/jj) |
 | **Reverse Engineering**  | [Ghidra](https://ghidra-sre.org), [radare2](https://radare.org), [GDB](https://sourceware.org/gdb) |
-| **Database**             | [SQLite](https://sqlite.org), [MongoDB](https://mongodb.com) | [MySQL](https://www.mysql.com/)
+| **Database**             | [SQLite](https://sqlite.org), [MongoDB](https://mongodb.com), [MySQL](https://www.mysql.com/) |
 | **Data Structures**      | [JSON](https://json.org), [YAML](https://yaml.org), [TOML](https://toml.io), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [XML](https://w3.org/XML) |
 | **Markup / Style**       | [Markdown](https://commonmark.org), [CSS](https://w3.org/Style/CSS), [HTML](https://w3.org/html), [LaTeX](https://www.latex-project.org/) |
 | **Programming**          | [Bash](https://gnu.org/software/bash), [C](https://en.cppreference.com/w/c), [Assembly](https://en.wikipedia.org/wiki/Assembly_language), [Rust](https://rust-lang.org) |
 
 ---
 
-## Projects
+## Security & Tooling
 
 | Category       | Language | Project | Description |
 |----------------|---------|---------|-------------|
@@ -40,14 +41,26 @@
 | **Crypto**         | [Bash](https://gnu.org/software/bash)    | [VaultX](https://github.com/rhjddjdbc/vaultx) | AES‑256 / RSA password manager with HIBP check |
 | **Pentest**        | [Bash](https://gnu.org/software/bash)    | [pwny](https://github.com/rhjddjdbc/pwny) | Bash scanner for XSS, SQLI, LFI, etc. |
 | **Container**      | [Bash](https://gnu.org/software/bash)    | [dcg](https://github.com/rhjddjdbc/dcg) | Dev container generater with profiles, rootless users and oh-my-zsh |
-| **Crypto**         | [asm](https://en.wikipedia.org/wiki/Assembly_language)     | [otp-asm](https://github.com/rhjddjdbc/otp-asm) | One Time Pad Cli Tool in x86-64 Assembly|
-| **Game / Fun**      | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [Excel-Chess](https://github.com/rhjddjdbc/Excel-Chess) | Chess in the browser against a macro-free Excel workbook recalculated by LibreOffice |
-| **CLI / Fun**       | [Rust](https://rust-lang.org)    | [Term-Pet](https://github.com/rhjddjdbc/Term-Pet) | Tamagotchi for the terminal — zero dependencies, five pets, ANSI & ASCII art |
-| **Editor / Productivity** | [Rust](https://rust-lang.org) [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)| [Tengwar](https://github.com/rhjddjdbc/Tengwar) | Native Markdown editor with 19 native diagrams, MathML LaTeX, Git and Vim |
+| **Crypto**         | [asm](https://en.wikipedia.org/wiki/Assembly_language)     | [otp-asm](https://github.com/rhjddjdbc/otp-asm) | One Time Pad Cli Tool in x86-64 Assembly |
+
+---
+
+## Fun & General Nerdery
+
+Not everything needs a threat model. Sometimes it's a Tamagotchi in your terminal,
+sometimes it's chess against a spreadsheet, sometimes it's a Markdown editor that
+renders diagrams in pure Rust. Same low-level curiosity -- less CVE.
+
+| Category       | Language | Project | Description |
+|----------------|---------|---------|-------------|
+| **Editor**         | [Rust](https://rust-lang.org)    | [Tengwar](https://github.com/rhjddjdbc/Tengwar) | Native Markdown editor with 19 Rust-native diagrams, MathML LaTeX, Git and Vim |
+| **CLI / Fun**      | [Rust](https://rust-lang.org)    | [Term-Pet](https://github.com/rhjddjdbc/Term-Pet) | Tamagotchi for the terminal — zero dependencies, five pets, ANSI & ASCII art |
+| **Game**           | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [Excel-Chess](https://github.com/rhjddjdbc/Excel-Chess) | Chess in the browser against a macro-free Excel workbook recalculated by LibreOffice |
+
 ---
 
 <div align="center">
-  <img src="output.gif" alt="Screenshot" width="1000">
+  <img src="output.gif" alt="Demo" width="1000">
 </div>
 
 ---
