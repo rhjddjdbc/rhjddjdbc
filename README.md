@@ -43,7 +43,7 @@
 | **Crypto**         | [asm](https://en.wikipedia.org/wiki/Assembly_language)     | [otp-asm](https://github.com/rhjddjdbc/otp-asm) | One Time Pad Cli Tool in x86-64 Assembly|
 | **Game / Fun**      | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [Excel-Chess](https://github.com/rhjddjdbc/Excel-Chess) | Chess in the browser against a macro-free Excel workbook recalculated by LibreOffice |
 | **CLI / Fun**       | [Rust](https://rust-lang.org)    | [Term-Pet](https://github.com/rhjddjdbc/Term-Pet) | Tamagotchi for the terminal — zero dependencies, five pets, ANSI & ASCII art |
-| **Editor / Productivity** | [Rust](https://rust-lang.org) | [Tengwar](https://github.com/rhjddjdbc/Tengwar) | Native Markdown editor with 19 Rust-native diagrams, MathML LaTeX, Git and Vim |
+| **Editor / Productivity** | [Rust](https://rust-lang.org) | [Tengwar](https://github.com/rhjddjdbc/Tengwar) | Native Markdown editor with 19 native diagrams, MathML LaTeX, Git and Vim |
 ---
 
 <div align="center">
