@@ -54,7 +54,7 @@ renders diagrams in pure Rust. Same low-level curiosity -- less CVE.
 | Category       | Language | Project | Description |
 |----------------|---------|---------|-------------|
 | **Editor**         | [Rust](https://rust-lang.org)    | [Tengwar](https://github.com/rhjddjdbc/Tengwar) | Native Markdown editor with 19 Rust-native diagrams, MathML LaTeX, Git and Vim |
-| **CLI / Fun**      | [Rust](https://rust-lang.org)    | [Term-Pet](https://github.com/rhjddjdbc/Term-Pet) | Tamagotchi for the terminal — zero dependencies, five pets, ANSI & ASCII art |
+| **CLI / Fun**      | [Rust](https://rust-lang.org)    | [Term-Pet](https://github.com/rhjddjdbc/Term-Pet) | Tamagotchi for the terminal -- zero dependencies, five pets, ANSI & ASCII art |
 | **Game**           | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [Excel-Chess](https://github.com/rhjddjdbc/Excel-Chess) | Chess in the browser against a macro-free Excel workbook recalculated by LibreOffice |
 
 ---
